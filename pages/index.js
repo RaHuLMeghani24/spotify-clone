@@ -4,10 +4,8 @@ import Sidebar from '../components/Sidebar';
 
 export default function Home() {
   return (
-    <div className=''>
-  
-
-    <main>
+    <div className='bg-black h-screen overflow-hidden'>
+    <main className=''>
       <Sidebar/>
       {/* Center */}
     </main>
@@ -16,6 +14,7 @@ export default function Home() {
       <div>
       {/* Player */}
       </div>
+      
     </div>
   )
 }
